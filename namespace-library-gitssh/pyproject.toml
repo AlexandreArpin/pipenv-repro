@@ -16,7 +16,7 @@ classifiers = [
 requires-python = ">=3.9"
 dependencies = [
     "aiohttp>=3.8.3,<4.0.0",
-    "namespace-utils @ git+https://github.com/AlexandreArpin/pipenv-repro@master#subdirectory=namespace-utils",
+    "namespace-utils @ git+https://github.com/AlexandreArpin/pipenv-repro@main#subdirectory=namespace-utils",
 ]
 
 [project.urls]
