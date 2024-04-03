@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "namespace-library"
+description = "Re-usable package dependency that depends on another package"
+version = "1.0.0"
+authors = [{ name = "Author", email = "arpin.alexandre@gmail.com" }]
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "aiohttp>=3.8.3,<4.0.0",
+    "namespace-utils @ git+https://github.com/AlexandreArpin/pipenv-repro@master#subdirectory=namespace-utils",
+]
+
+[project.urls]
+"Source" = "https://github.com/AlexandreArpin/pipenv-repro"

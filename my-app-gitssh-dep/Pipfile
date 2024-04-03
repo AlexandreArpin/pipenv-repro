@@ -1,0 +1,5 @@
+[packages]
+namespace-library = {ref = "main", git = "git+https://github.com/AlexandreArpin/pipenv-repro.git", subdirectory = "namespace-library-gitssh"}
+
+[requires]
+python_version = "3.9"
